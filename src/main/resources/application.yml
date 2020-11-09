@@ -5,8 +5,8 @@ spring:
   r2dbc:
     username: user
     password: pass
-#    url: r2dbc:mariadb://127.0.0.1:3306/mysql
-    url: r2dbc:mysql://127.0.0.1:3306/mysql
+    url: r2dbc:mariadb://127.0.0.1:3306/mysql
+#    url: r2dbc:mysql://127.0.0.1:3306/mysql
     pool:
       enabled: true
       validation-query: "SELECT NOW();"

@@ -24,8 +24,8 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	implementation("org.springframework.boot:spring-boot-starter-data-r2dbc")
-//	runtimeOnly("org.mariadb:r2dbc-mariadb:0.8.4-rc")
-	runtimeOnly("dev.miku:r2dbc-mysql")
+	runtimeOnly("org.mariadb:r2dbc-mariadb:0.8.4-rc")
+//	runtimeOnly("dev.miku:r2dbc-mysql")
 }
 
 tasks.withType<Test> {
